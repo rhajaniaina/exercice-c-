@@ -12,3 +12,4 @@ C:\Users\hajan\sio2\jetable\obj\Debug\net10.0\refint\jetable.dll
 C:\Users\hajan\sio2\jetable\obj\Debug\net10.0\jetable.pdb
 C:\Users\hajan\sio2\jetable\obj\Debug\net10.0\jetable.genruntimeconfig.cache
 C:\Users\hajan\sio2\jetable\obj\Debug\net10.0\ref\jetable.dll
+C:\Users\hajan\sio2\jetable\obj\Debug\net10.0\jetable.sourcelink.json
