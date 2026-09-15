@@ -1,22 +1,22 @@
-﻿decimal solde = 1000m;
-decimal montant = 150m;
-
-if (montant > 0)
+﻿decimal Crediter(decimal solde, decimal montant)
 {
-    solde += montant;
-}
-else if (montant < 0)
-{
-    decimal debit = -montant;
-
-    if (debit <= solde)
+    if (montant > 0)
     {
-        solde -= debit;
+        solde += montant;
     }
     else
     {
-        Console.WriteLine("Solde Insuffisant");
+        Console.WriteLine("Montant invalide");
     }
+
+    return solde;
 }
 
-test
+
+// Test de la méthode
+decimal solde = 1000m;
+decimal montant = 150m;
+
+solde = Crediter(solde, montant);
+
+Console.WriteLine($"Solde : {solde}");
