@@ -25,4 +25,14 @@ public class Compte
         titulaire = Titulaire;
         solde = Solde;
     }
+
+    public void Crediter(decimal montant)
+    {
+        solde = solde + montant;
+    }
+
+    public void Debiter(decimal montant)
+    {
+        solde = solde - montant;
+    }
 }
