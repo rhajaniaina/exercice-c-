@@ -47,6 +47,4 @@ public class Produit
         quantite = quantite - quantiteRetirer;
     }
 
-
-
 }

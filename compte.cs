@@ -11,6 +11,16 @@ public class Compte
         solde = 0m;
     }
 
+public class CompteEpargne : Compte
+    {
+        public decimal TauxInterets { get; }
+        
+        public CompteEpargne(string Numero,string Titulaire,decimal tauxinterets) : base(Numero, Titulaire)
+        {
+            TauxInterets = tauxinterets;
+        }
+    }
+
     public Compte(string Numero, string Titulaire, decimal Solde)
     {
         numero = Numero;

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("jetable")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbd3435bcec48710ca2a843d41c8bf003f87d951")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50b9140467d83f96424f4fcf0b8cd8b57e32ed4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("jetable")]
 [assembly: System.Reflection.AssemblyTitleAttribute("jetable")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
