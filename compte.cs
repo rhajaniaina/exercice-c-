@@ -4,6 +4,8 @@ public class Compte
     public string titulaire { get; }
     public decimal solde { get; private set; }
 
+
+
     public Compte(string Numero, string Titulaire)
     {
         numero = Numero;
